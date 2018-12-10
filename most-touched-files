@@ -55,7 +55,7 @@ for path in "${paths[@]}"; do
 done
 
 # headers
-echo -ne "\rTotal Changes.....Additions.....Deletions.....File path"
+echo -e "\rTotal Changes.....Additions.....Deletions.....File path"
 
 
 # print out each line of the output on a new line
